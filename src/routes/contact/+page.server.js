@@ -1,5 +1,8 @@
 import { fail } from '@sveltejs/kit';
 
+export const csr = false;
+export const ssr = true;
+
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
